@@ -1,0 +1,83 @@
+.p-divider-horizontal.p-divider-center {
+    justify-content: center;
+}
+.p-divider.p-divider-horizontal {
+    padding: 0 1.25rem;
+}
+.p-divider-horizontal {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+.p-divider .p-divider-content {
+    background-color: white !important;
+}
+.p-divider-solid.p-divider-horizontal:before {
+    border-top-style: solid !important; 
+}
+.p-divider.p-divider-horizontal:before {
+    border-top: 1px #dee2e6;
+}
+.p-divider-horizontal:before {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: "";
+}
+
+.p-tag {
+    font-size: large;
+    background: white;
+    color: #58636b;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p-breadcrumb {
+    border-radius: 0px !important;
+}
+
+.p-chip .p-chip-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.p-divider.p-divider-horizontal .p-divider-content {
+    padding: 0;
+    border-radius: 2px !important;
+    border: 1px solid white;
+}    
+
+.p-breadcrumb {
+    padding: 0 !important;
+    padding-left: 10px !important;
+    font-size: xx-large !important;
+}
+
+.p-menuitem-text, .p-menuitem-link {
+    font-weight: normal !important;
+}
+
+.p-menuitem-separator  {
+    color: #58636b !important;
+    margin-top: 4px !important;
+}
+
+.p-timeline .p-timeline-event-marker {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: #58636b !important;
+}
+
+.p-timeline-event-content, .p-timeline-event-opposite {
+    font-size: xx-large;
+    margin-top: -6px;
+}
