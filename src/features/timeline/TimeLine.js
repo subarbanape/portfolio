@@ -9,9 +9,10 @@ import { setEmployerAsync } from './TimeLineSlice';
 import { ExperienceData } from '../../data/ExperienceData';
 import { useSelector, useDispatch } from 'react-redux'
 import { setPathAsync } from '../path/PathSlice';
+import { TimeLineContent } from './TimeLineContent';
 
 export const TimeLine = () => {
-    const [items] = useState(() => Array.from(ExperienceData, ([name, value]) => ({ employerKey: name, ...value })));
+    const [items] = useState(() => Array.from(ExperienceData, ([name, value]) => ({ employerKey: name, ...value, moreMargin: true })));
 
     return (
         <MainCard >
@@ -27,32 +28,3 @@ export const TimeLine = () => {
     )
 }
 
-const CardHeader = styled(Card.Header)`
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background: #b2eb81;
-    font-size: xx-large;
-    padding-left: 10px;
-    color: #58636b;
-`
-
-const TimeLineContent = (item) => {
-    const dispatch = useDispatch();
-
-    const onClickMore = (employerKey) => {
-        dispatch(setEmployerAsync(employerKey));
-        dispatch(setPathAsync({ path: `/timeline/${employerKey}` }));
-    }
-
-    return <Container >
-        <Card style={{ marginBottom: '90px', marginTop: '30px', textAlign: 'left', borderRadius: '5px', border: 'none', background: `#b2eb812e` }}>
-            <CardHeader as="h5" >{item.employer}</CardHeader>
-            <Card.Body style={{ paddingTop: 0 }}>
-                {item.titles.map(title => <HighlightsChip label={title} />)}
-                <HighlightsChip label={item.location} />
-                <p>{item.highlights}</p>
-                <Card.Text onClick={() => { onClickMore(item.employerKey); }} style={{ textAlign: 'right', paddingTop: 0, fontSize: 'x-large', cursor: 'pointer' }}>More<FaChevronRight size='13px' /></Card.Text>
-            </Card.Body>
-        </Card>
-    </Container>
-}

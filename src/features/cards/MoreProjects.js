@@ -34,6 +34,7 @@ export const MoreProjects = React.memo(() => {
                                 columnWidth={400}
                                 // This is the grid item component
                                 render={RootCard}
+                                overscanBy={10}
                             />
                         </Container>
                     </MainCardText>
