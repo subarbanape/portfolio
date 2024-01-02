@@ -4,7 +4,7 @@ import { HighlightsChip, MainCard, MainCardBody, MainCardTitle, TitleText } from
 export const Interests = () => {
     const interests = [
         'Blockchain Enthusiast',
-        'Build Trustless Distributed Apps',
+        'Build Trustless Decentralized Apps',
         'Pixelart Admirer & Hobby Artist',
         'Retro Art & Retro Futurism',
         'RPG Game & Wannabe Game Developer',
