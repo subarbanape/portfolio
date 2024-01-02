@@ -27,7 +27,7 @@ export const Header = () => {
     return (
         <HeaderContainer fluid>
             <Row className='g-0' >
-                <Col xs='auto' style={{ textAlign: 'left' }}><Image style={{ width: '180px', padding: '10px' }} src='../name.svg'></Image></Col>
+                <Col xs='auto' style={{ textAlign: 'left' }}><Image style={{ width: '180px', padding: '10px' }} src='/portfolio/name.svg'></Image></Col>
                 <TaglineCol >
                     <a href="mailto:dvinun@gmail.com" style={{color: 'white'}}><BiLogoGmail /></a>&nbsp;
                     <a href="https://medium.com/@dvinun" style={{color: 'white'}}><BiLogoMediumSquare /></a>&nbsp;
