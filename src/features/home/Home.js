@@ -31,12 +31,12 @@ export const Home = () => {
                 <CardCol><TimeLine></TimeLine></CardCol>
             </Row>
             <Row className="g-0" >
-                <CardCol><Education></Education></CardCol>
-                <CardCol><Strengths></Strengths></CardCol>
+                <CardCol sm='6'><Education></Education></CardCol>
+                <CardCol sm='6'><Strengths></Strengths></CardCol>
             </Row>
             <Row className="g-0" >
-                <CardCol><GitHubLinks></GitHubLinks></CardCol>
-                <CardCol><Interests></Interests></CardCol>
+                <CardCol sm='6'><GitHubLinks></GitHubLinks></CardCol>
+                <CardCol sm='6'><Interests></Interests></CardCol>
             </Row>
             <Row className="g-0" >
                 <CardCol><AdditionalPerks></AdditionalPerks></CardCol>

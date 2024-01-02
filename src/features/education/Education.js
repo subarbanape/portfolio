@@ -12,8 +12,6 @@ import styled from 'styled-components';
 
 const TextParagraph = styled.span`
     font-size: xx-large;
-    margin: 0;
-    padding: 0;
     line-height: normal;
     width: 100%;
 `
@@ -26,7 +24,7 @@ export const Education = () => {
                 <MainCardTitle >
                     <TitleText>&nbsp;Education & Credentials</TitleText>
                 </MainCardTitle>
-                <TextParagraph>
+                <TextParagraph >
                     Bachelors in Computer Science, 2008, <br/> Sri Revanasiddeshwara Institute Of Technology, VTU university - Bangalore
                 </TextParagraph>
                 <br/>

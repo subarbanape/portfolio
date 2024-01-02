@@ -40,6 +40,8 @@ export const AdditionalPerks = () => {
                             columnWidth={200}
                             // This is the grid item component
                             render={ImageCard}
+                            columnGutter={8}
+                            overscanBy={10}
                         />
                     </Container>
                 </MainCardText>

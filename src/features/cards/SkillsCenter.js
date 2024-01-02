@@ -32,10 +32,10 @@ export const SkillsCenter = React.memo(() => {
                 <MainCardText>
                     <CardParagraph>My key skills, but not limited to.</CardParagraph>
                     <Row style={{ textAlign: 'right', paddingRight: '10px' }}>
-                        <Col style={{ padding: 0 }}><ProficientChip label='Proficient'/></Col>
-                        <Col xs='auto' style={{ padding: 0 }}><IntermediateChip label='Intermediate' /></Col>
-                        <Col xs='auto' style={{ padding: 0 }}><BeginnerChip label='Basic'  /></Col>
-                        <Col xs='auto' style={{ padding: 0 }}><RookieChip label='Elementary'  /></Col>
+                        <Col  style={{ padding: 0 }}><ProficientChip label='Proficient'/></Col>
+                        <Col  sm='auto' style={{ padding: 0 }}><IntermediateChip label='Intermediate' /></Col>
+                        <Col  sm='auto' style={{ padding: 0 }}><BeginnerChip label='Basic'  /></Col>
+                        <Col  sm='auto' style={{ padding: 0 }}><RookieChip label='Elementary'  /></Col>
                     </Row>
                     <Divider align="left" >
                         <span className="p-tag">Development Platforms</span>

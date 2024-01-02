@@ -19,7 +19,7 @@ export const TimeLine = () => {
                 <MainCardTitle>
                     <TitleText>&nbsp;Timeline</TitleText>
                 </MainCardTitle>
-                <MainCardText>
+                <MainCardText >
                     <Timeline value={items} opposite={(item) => item.date} content={TimeLineContent} />
                 </MainCardText>
             </MainCardBody>
