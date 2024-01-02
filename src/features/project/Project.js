@@ -94,7 +94,7 @@ const EobProjectDetails = () => {
             <p><TextParagraph>4. Roles & Authorization.</TextParagraph></p>
             <p><TextParagraph>5. New Hire, Transfer and Separation eforms integration with AgilePoint into Portal.</TextParagraph></p>
             <p><TextParagraph>6. Feedback form.</TextParagraph></p>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/JHdXgfGfSL0" title="EOB Portal Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/JHdXgfGfSL0" title="EOB Portal Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h1>
                 <u>Bot</u>
             </h1>
@@ -104,11 +104,11 @@ const EobProjectDetails = () => {
             <p><TextParagraph>
                 We used Microsoft Machine Learning library. Trained the model with a database of questions and intents. Also, besides the intent, we also used Stanford's Natural Language Processing (NLP) library to extract the Parts of Speech (POS) to query against EOB database and respond users for their queries.
             </TextParagraph></p>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/rxoaW2WH0gc" title="Employee Onboarding Chatbot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/rxoaW2WH0gc" title="Employee Onboarding Chatbot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h1>
                 <u>Architecture</u>
             </h1>
-            <Image src='../EOB Architecture.png'></Image>
+            <Image style={{maxWidth: '100%'}} src='../EOB Architecture.png'></Image>
         </div>
     )
 }
@@ -119,7 +119,7 @@ const DMCAProjectDetails = () => {
             <h1>
                 <u>Architecture</u>
             </h1>
-            <Image src='../DMCA Architecture.png'></Image>
+            <Image style={{maxWidth: '100%'}} src='../DMCA Architecture.png'></Image>
         </div>
     )
 }
@@ -148,7 +148,7 @@ const MoxyProjectDetails = () => {
             <p><TextParagraph>2. Minimalistic UI/UX Design.</TextParagraph></p>
             <p><TextParagraph>3. Common File/Folder Operations such as Upload/Delete/Download Files, Add Folder, etc.</TextParagraph></p>
             <p><TextParagraph>4. Batch File Upload.</TextParagraph></p>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/cNp2gxTYjRY" title="Moxy Prototype Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/cNp2gxTYjRY" title="Moxy Prototype Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -169,13 +169,13 @@ const PxyProjectDetails = () => {
             <h1>
                 <u>Website Sneakpeak</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/6TRk1RfiDkc" title="Pxy Website Sneakpeak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/6TRk1RfiDkc" title="Pxy Website Sneakpeak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h1>
                 <u>Pxy Staking</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/m6urSZ-ec1c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/m6urSZ-ec1c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <br></br>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/xtE76A7n4t4" title="Pxy Staking Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/xtE76A7n4t4" title="Pxy Staking Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -186,9 +186,9 @@ const NFTGeneratorProjectDetails = () => {
             <h1>
                 <u>Pxy Generator Videos</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/5tkxHjrOZnI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/5tkxHjrOZnI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <br></br>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/Q2ALj2i0Vks" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/Q2ALj2i0Vks" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -203,7 +203,7 @@ const HeartbeatProjectDetails = () => {
             <h1>
                 <u>Demo Video</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/A1o1NQ-qEUk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/A1o1NQ-qEUk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -219,16 +219,16 @@ const BurnPokedProjectDetails = () => {
             <h1>
                 <u>Demo Video</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/cUbA8tWVdAk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/cUbA8tWVdAk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h1>
                 <u>Check These Poked Beauties</u>
             </h1>
             <Row>
                 <Col sm='auto'>
-                    <Image style={{ padding: '10px' }} src='/portfolio/poked/poked1.gif'></Image>
+                    <Image style={{ padding: '10px', maxWidth: '100%' }} src='/portfolio/poked/poked1.gif'></Image>
                 </Col>
                 <Col sm='auto'>
-                    <Image style={{ padding: '10px' }} src='/portfolio/poked/poked2.gif'></Image>
+                    <Image style={{ padding: '10px',  maxWidth: '100%' }} src='/portfolio/poked/poked2.gif'></Image>
                 </Col>
             </Row>
         </div>
@@ -241,7 +241,7 @@ const BurnVampiresProjectDetails = () => {
             <h1>
                 <u>Demo Video</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/yx0VLi5AL2E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/yx0VLi5AL2E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -252,7 +252,7 @@ const RentalBotProjectDetails = () => {
             <h1>
                 <u>Demo Video</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/Jl6q3-bFQzY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/Jl6q3-bFQzY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -263,7 +263,7 @@ const BundlePromoProjectDetails = () => {
             <h1>
                 <u>Demo Video</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/hPGg0P2_DHM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/hPGg0P2_DHM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -278,7 +278,7 @@ const DisplayMonitorProjectDetails = () => {
             <h1>
                 <u>Sample Video Of Prototype App</u>
             </h1>
-            <iframe width="800" height="440" src="https://www.youtube.com/embed/N-XErghE0EQ" title="Customer Feedback &amp; Company Metrics Sample Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="800" height="440" style={{maxWidth: '100%'}} src="https://www.youtube.com/embed/N-XErghE0EQ" title="Customer Feedback &amp; Company Metrics Sample Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )
 }
@@ -316,10 +316,6 @@ const ProductLifecycleIntegrationProjectDetails = () => {
                 <li>Sync internal trouble tickets to third-party ticketing company who handles customer care off hours.</li>
                 <li>Read customer surveys/feedback responses from TypeForm data and create tickets for customer care, in the Ticketing System, for customers that need followups.</li>
             </ul>
-            <h1>
-                <u>About</u>
-            </h1>
-            <p><TextParagraph>Coming Soon.</TextParagraph></p>
         </div>
     )
 }
@@ -338,18 +334,18 @@ const BizcaseProjectDetails = () => {
             <h1>
                 <u>Stats Architecture</u>
             </h1>
-            <p><Image src='/portfolio/bizcase/Bizcase Stats Service Architecture.png'></Image></p>
+            <p><Image style={{ padding: '10px', width: '100%' }} src='/portfolio/bizcase/Bizcase Stats Service Architecture.png'></Image></p>
             <h1>
                 <u>Resolving Stats Consumers Expression With Expression Engine</u>
             </h1>
             <p><TextParagraph>The Stats Service is responsbile to absorb any changes in the Business Case process and add the Stats metadata into Business Case Stats database.</TextParagraph></p>
             <p><TextParagraph>Ex: When a new task is created, the Stats Service will generate information such as how much % the process is complete, who owns the task, add the new task to the trail of runinng history of the corresponding request, etc.</TextParagraph></p>
-            <p><Image src='/portfolio/bizcase/Bizcase Stats Consumers Expression.png'></Image></p>
+            <p><Image  style={{ padding: '10px', width: '100%' }} src='/portfolio/bizcase/Bizcase Stats Consumers Expression.png'></Image></p>
             <h1>
                 <u>Expression Engine</u>
             </h1>
             <p><ThemedHyperlink href='https://github.com/subarbanape/expression-engine' >Expression Engine Github Link</ThemedHyperlink></p>
-            <p><Image src='/portfolio/bizcase/BizCase And Expression Engine VS Folders View.png'></Image></p>
+            <p><Image  style={{ padding: '10px', width: '100%' }} src='/portfolio/bizcase/BizCase And Expression Engine VS Folders View.png'></Image></p>
             <h2>
                 <u>Expression Engine</u>
             </h2>
@@ -449,7 +445,7 @@ const BizcaseProjectDetails = () => {
             <h2>
                 <u>Sample Stat Config JSON</u>
             </h2>
-            <p><Image style={{ padding: '10px', width: '60%' }} src='/portfolio/bizcase/Sample Stat Config.png'></Image></p>
+            <p><Image style={{ padding: '10px', minWidth: '60%', maxWidth: '100%' }} src='/portfolio/bizcase/Sample Stat Config.png'></Image></p>
         </div>
     )
 }
