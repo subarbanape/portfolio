@@ -225,10 +225,10 @@ const BurnPokedProjectDetails = () => {
             </h1>
             <Row>
                 <Col sm='auto'>
-                    <Image style={{ padding: '10px' }} src='/poked/poked1.gif'></Image>
+                    <Image style={{ padding: '10px' }} src='/portfolio/poked/poked1.gif'></Image>
                 </Col>
                 <Col sm='auto'>
-                    <Image style={{ padding: '10px' }} src='/poked/poked2.gif'></Image>
+                    <Image style={{ padding: '10px' }} src='/portfolio/poked/poked2.gif'></Image>
                 </Col>
             </Row>
         </div>
@@ -289,10 +289,10 @@ const DataConverterProjectDetails = () => {
             <h1>
                 <u>Screenshots</u>
             </h1>
-            <Image style={{ width: '100%' }} src='/data-converter/screenshot-1.png'></Image>
+            <Image style={{ width: '100%' }} src='/portfolio/data-converter/screenshot-1.png'></Image>
             <br/>
             <br/>
-            <Image style={{ width: '100%' }} src='/data-converter/screenshot-2.png'></Image>
+            <Image style={{ width: '100%' }} src='/portfolio/data-converter/screenshot-2.png'></Image>
         </div>
     )
 }
@@ -334,22 +334,22 @@ const BizcaseProjectDetails = () => {
             <h1>
                 <u>Redacted Workflow</u>
             </h1>
-            <p><Image style={{ padding: '10px', width: '100%' }} src='/bizcase/Business Case Request Process.png'></Image></p>
+            <p><Image style={{ padding: '10px', width: '100%' }} src='/portfolio/bizcase/Business Case Request Process.png'></Image></p>
             <h1>
                 <u>Stats Architecture</u>
             </h1>
-            <p><Image src='/bizcase/Bizcase Stats Service Architecture.png'></Image></p>
+            <p><Image src='/portfolio/bizcase/Bizcase Stats Service Architecture.png'></Image></p>
             <h1>
                 <u>Resolving Stats Consumers Expression With Expression Engine</u>
             </h1>
             <p><TextParagraph>The Stats Service is responsbile to absorb any changes in the Business Case process and add the Stats metadata into Business Case Stats database.</TextParagraph></p>
             <p><TextParagraph>Ex: When a new task is created, the Stats Service will generate information such as how much % the process is complete, who owns the task, add the new task to the trail of runinng history of the corresponding request, etc.</TextParagraph></p>
-            <p><Image src='/bizcase/Bizcase Stats Consumers Expression.png'></Image></p>
+            <p><Image src='/portfolio/bizcase/Bizcase Stats Consumers Expression.png'></Image></p>
             <h1>
                 <u>Expression Engine</u>
             </h1>
             <p><ThemedHyperlink href='https://github.com/subarbanape/expression-engine' >Expression Engine Github Link</ThemedHyperlink></p>
-            <p><Image src='/bizcase/BizCase And Expression Engine VS Folders View.png'></Image></p>
+            <p><Image src='/portfolio/bizcase/BizCase And Expression Engine VS Folders View.png'></Image></p>
             <h2>
                 <u>Expression Engine</u>
             </h2>
@@ -449,7 +449,7 @@ const BizcaseProjectDetails = () => {
             <h2>
                 <u>Sample Stat Config JSON</u>
             </h2>
-            <p><Image style={{ padding: '10px', width: '60%' }} src='/bizcase/Sample Stat Config.png'></Image></p>
+            <p><Image style={{ padding: '10px', width: '60%' }} src='/portfolio/bizcase/Sample Stat Config.png'></Image></p>
         </div>
     )
 }
