@@ -26,7 +26,7 @@ export const GitHubLinks = () => {
                         <ThemedHyperlink href='https://github.com/subarbanape/SISS-Package-Executor'>SSIS Package Tool</ThemedHyperlink></p>
                 </div>
                 <h2>Articles</h2>
-                <div>
+                <div style={{ padding: '15px' }}>
                     <p>
                         <ThemedHyperlink href='https://medium.com/@dvinun/a-baked-goodness-of-distributed-application-components-all-in-one-docker-stack-part-1-intro-4688e95a6b19'>Demo of distributed apps using Docker Stack</ThemedHyperlink>,&nbsp;
                         <ThemedHyperlink href='https://medium.com/@dvinun/got-web-config-transformation-problem-in-your-azure-devops-953a8f29335b'>Azure Devops Configuration</ThemedHyperlink>,&nbsp;
