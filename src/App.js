@@ -15,7 +15,7 @@ import "primereact/resources/primereact.min.css";
 import './themes/PrimeReactTheme.css';
 import './themes/PrimeReactOverrides.css';
 import { Home } from './features/home/Home';
-import { Routes, Route, useNavigate, } from 'react-router-dom'
+import { Routes, Route, useNavigate, Navigate, } from 'react-router-dom'
 import { Skill } from './features/skill/Skill';
 import { Project } from './features/project/Project';
 import { getPathFromUrl } from './common/Utils';
@@ -77,14 +77,14 @@ export const App = React.memo(() => {
         <div style={{paddingTop: '80px'}}></div>
         <PageContainer fluid >
           <Routes>
-            <Route path='home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='skill/:skillname' element={<Skill />} />
             <Route path='project/:projectname' element={<Project />} />
             <Route path='more-projects/:projectname' element={<Project />} />
             <Route path='timeline/:employer' element={<ExperienceAtEmployer />} />
             <Route path='more-projects' element={<MoreProjects/>} />
             <Route path='project' element={<Home />} />
-            <Route path='*' element={<Home />} />
+            <Route path='*' element={<Navigate to='/' replace />} />
           </Routes>
           <div style={{ paddingBottom: '50px' }}></div>
         </PageContainer>
