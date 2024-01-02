@@ -274,7 +274,7 @@ const DisplayMonitorProjectDetails = () => {
             <h1>
                 <u>Screenshot</u>
             </h1>
-            <Image style={{ width: '100%' }} src='/display-monitor-screenshot.png'></Image>
+            <Image style={{ width: '100%' }} src='/portfolio/display-monitor-screenshot.png'></Image>
             <h1>
                 <u>Sample Video Of Prototype App</u>
             </h1>

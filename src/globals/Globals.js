@@ -65,12 +65,12 @@ export const GlobalStyles = createGlobalStyle`
    
     @font-face {
         font-family: ${props => props.theme.fontFamilyRegular}; 
-        src: url('../AsepriteFont.ttf'); 
+        src: url('/portfolio/AsepriteFont.ttf'); 
     } 
 
     @font-face {
         font-family: ${props => props.theme.fontFamilyRegular}; 
-        src: url('../AsepriteFont.ttf'); 
+        src: url('/portfolio/AsepriteFont.ttf'); 
     } 
 
     a {
