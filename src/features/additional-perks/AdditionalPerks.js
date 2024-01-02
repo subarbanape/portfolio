@@ -31,7 +31,7 @@ export const AdditionalPerks = () => {
                     /></TitleText>
                 </MainCardTitle>
                 <MainCardText>
-                    <h2>Press 'Refresh' icon above to shuffle through some cute pixel art characters I did in the past :-)</h2>
+                    <h2>Press 'Refresh' icon above to shuffle through some cute pixel art characters I did in the past with my Pixel Art skills and the NFT Art Generator app I built :-)</h2>
                     <Container fluid >
                         <Masonry
                             // Provides the data for our grid items
