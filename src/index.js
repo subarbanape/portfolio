@@ -8,7 +8,7 @@ import { store } from './state-management/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={"/portfolio/"}>
     <Provider store={store}>
       <React.StrictMode>
         <App />
