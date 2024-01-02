@@ -225,10 +225,10 @@ const BurnPokedProjectDetails = () => {
             </h1>
             <Row>
                 <Col sm='auto'>
-                    <Image style={{ padding: '10px' }} src='/poked/poked1.gif'></Image>
+                    <Image style={{ padding: '10px' }} src='../poked/poked1.gif'></Image>
                 </Col>
                 <Col sm='auto'>
-                    <Image style={{ padding: '10px' }} src='/poked/poked2.gif'></Image>
+                    <Image style={{ padding: '10px' }} src='/portfolio/poked/poked2.gif'></Image>
                 </Col>
             </Row>
         </div>
