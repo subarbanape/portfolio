@@ -49,17 +49,17 @@ ExperienceData.set('agilepoint-1', {
         "Most of my roles involved working with customers to build their business processes, Mentoring and handholding customers by providing best practices and working samples.",
         "Received customer requirements, analyzed them, wrote design specs, created mock-ups, and converted them into workflow/process-driven applications using AgilePoint BPM.",
         "Developed and demonstrated prototype software, participating in both operational analysis and software development.",
-        "Worked simultaneously on multiple projects by leading some of them through offshore consultants team",
+        "Worked simultaneously on multiple projects by leading some of them through offshore consultants' team",
         "Assisted the development team in adding and supporting new features to the product, involving project scoping, design, development, and delivery of AgilePoint Business Process Management (BPM) products.",
         "Assisted sales and support teams by attending meetings for technical help, providing technical inputs and samples on AgilePoint blog, attending conference booth exhibits, and developing/demonstrating prototypes for prospects.",
         "Wrote service layers using WCF or REST to integrate with AgilePoint for communication with platforms like Salesforce, SharePoint, and others. Designed and developed independent web applications using ASP.Net, JQuery, HTML, CSS. Familiar with frameworks such as Angular, Bootstrap, and React. Wrote advanced AgilePoint Connectors and Extenders to meet complex business requirements.",
-        "Developed and maintained internal employee applications, including Leave Request, Time-sheet, and Travel Request.",
+        "Developed and maintained internal employee applications, including Leave Request, Timesheet, and Travel Request.",
     ],
     projects: [
         'Contract Bidding & Approval',
         'Leave Request Workflow',
         'Litigation Management Process',
-        'Internet Product Promo Package Management Application', 
+        'Bundle Product Promo Package Management Application', 
         'Business Case Approval Workflow (AgilePoint v5)',
         'Built Several POCs For Prospects',
     ]
@@ -67,10 +67,9 @@ ExperienceData.set('agilepoint-1', {
 
 ExperienceData.set('agilepoint-0', {
     employer: 'AgilePoint India', date: 'Feb 2012 to Oct 2013', titles: ['Senior Software Engineer'], location: 'Bangalore, India',
-    highlights: 'Traveled to onsite locations for requirement gathering, deployments, and provided technical support for ticket resolution. Conducted onsite product trainings and support for EMEA and Asia customers. Assisted in the installation of BPM software, coordinated project development between onsite and offsite teams, and led development teams, conducting code reviews, providing training, and participating in job interviews. Significantly contributed to bug fixes, feature enhancements, and integration of functionalities, testing, and maintaining connectors with 3rd party systems. Collaborated with Engineering and Customer Support for defect troubleshooting, tested and maintained existing software programs, and contributed to discussions, documentation, and performance testing. Additionally, played a key role in core product development for various AgilePoint BPM Workflow components.',
+    highlights: 'Traveled to onsite locations for requirement gathering, deployments, and provided technical support for ticket resolution. Assisted in the installation of BPM software, coordinated project development between onsite and offsite teams, led development teams, conducting code reviews, providing training, and participating in job interviews. Significantly contributed to bug fixes, feature enhancements, and integration of functionalities, testing, and maintaining connectors with 3rd party systems. Collaborated with Engineering and Customer Support for defect troubleshooting, tested and maintained existing software programs, and contributed to discussions, documentation, and performance testing. Additionally, played a key role in core product development for various AgilePoint BPM Workflow components.',
     details: [
-        "Traveled onsite for undergoing product trainings, and provided product support for EMEA and Asia customers.",
-        "Traveled to onsite locations for requirement gathering and deployments, wrote POCs, and assisted support agents with technical samples for ticket resolution.",
+        "Traveled to onsite locations for product trainings, requirement gathering and deployments, wrote POCs, and assisted support agents with technical samples for ticket resolution.",
         "Led and coordinated development teams, conducted code reviews, provided product training to juniors, and participated in job interviews.",
         "Assisted with the installation of Business Process Management (BPM) software and systems.",
         "Coordinated project development between onsite and offsite teams.",

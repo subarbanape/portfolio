@@ -17,8 +17,8 @@ ProjectsData.set(0, {
 ProjectsData.set(1, {
     name: 'dmca',
     display: 'DMCA (Digital Millenia Copyright Act) Evidence Engine',
-    descriptions: ['Engineered and developed DMCA Engine to extract network and billing evidences of copyright violations of retail internet users and deliver the evidences to billing system for notifying the customers.',
-        'Event-driven architecture was adopted to achieve seemlessness and efficiency by processing events asychronously by using independent consumers who are destinated to do their assigned responsibilities independently and deliver the results to corresponding systems.'],
+    descriptions: ['Engineered and developed DMCA Engine to extract network and billing evidence of copyright violations of retail internet users and deliver the evidences to billing system for notifying the customers.',
+        'Event-driven architecture was adopted to achieve seamlessness and efficiency by processing events asynchronously by using independent consumers who are destinated to do their assigned responsibilities independently and deliver the results to corresponding systems.'],
     techStack: ['rabbit-mq', 'mass-transit', 'sql', 'netcore', 'rest', 'heat'],
     highlights: [],
     media: [],
@@ -72,7 +72,7 @@ ProjectsData.set(5, {
     descriptions: ['Implemented as an innovation project in parttime. We developed an interactive heartbeat monitor for GVTC IT Infrastructure.',
         'The heartbeat will keep track of all the important IT infrastructure components such as IIS, Windows Services, CPU Usage, Server Disk Space and Memory, External Websites, SSL Cert Expirations etc.',
         'It will notify designated admins whenever there some components go down.',
-        'Every server which is monitored has a Heartbeat windows agent that will be running and reporting the status every few minutes. These agents sends all the monitor info from its hosting server back to the Heartbeat server.',
+        'Every server that is monitored has a Heartbeat windows agent that will be running and reporting the status every few minutes. These agents send all the monitor info from its hosting server back to the Heartbeat server.',
         'Check out the demo in action by clicking More button below.'],
     techStack: ['reactjs', 'redux', 'bootstrap', 'rest', 'sql', 'netcore'],
     highlights: [],
@@ -143,7 +143,7 @@ ProjectsData.set(10, {
 
 ProjectsData.set(11, {
     name: 'bundle-promo',
-    display: 'Internet Product Promo Package Management Application',
+    display: 'Bundle Product Promo Package Management Application',
     descriptions: ['Designed and developed an end-to-end Product Offering Management app.',
         'The product manager would use this application to offer new Internet Promotion, Bundles, Products etc.',
         'The application will allow users to drag and drop interactively from existing offerings.',
@@ -158,7 +158,7 @@ ProjectsData.set(11, {
 
 ProjectsData.set(12, {
     name: 'display-monitor',
-    display: 'Customer Feeback Display Monitor',
+    display: 'Customer Feedback Display Monitor',
     descriptions: ['Designed and developed end-to-end display monitor app which displayed recent positive reviews on the Technicians about their service.',
         'This was done in an effort to boost motivation for field technicians.',
         'Click More to see more details'],
@@ -192,8 +192,8 @@ ProjectsData.set(14, {
 ProjectsData.set(15, {
     name: 'contract-lifecycle-management',
     display: 'Contract Bidding & Approval',
-    descriptions: ['Designed and developed AgilePoint based Contract Document Approval & Bidding process for one of the electric-utilities company',
-        'The application was responsible for enabling supply chain related staffs to iniate a new Contract Approval request. After the contract was approved based on the bidding amout, it will send emails to bidders, bidding happens through emails, eventually the DocuSign request is sent from the app to establish the agreement.',
+    descriptions: ['Designed and developed AgilePoint based Contract Document Approval & Bidding process for one of the electric-utilities company.',
+        'The application was responsible for enabling supply chain related staffs to initiate a new Contract Approval request. After the contract was approved based on the bidding amount, it will send emails to bidders, bidding happens through emails, eventually the DocuSign request is sent from the app to establish the agreement.',
         'I used data population feature of AgilePoint to extract custom data and create reports. Also, used custom columns feature in the tasks module to display specific columns related to process to help users identify the processes.',
         'Worked with development team in AgilePoint to create an advanced task list feature the out-of-the-box was not sufficient to provide all requirements customers were asking.'],
     techStack: ['agilepoint', 'docusign', 'wcf service'],
@@ -254,7 +254,7 @@ ProjectsData.set(20, {
 
 ProjectsData.set(21, {
     name: 'lock-simulator-app',
-    display: 'Lock Simulator For Testing Lock Firmwares',
+    display: 'Lock Simulator For Testing Lock Firmware',
     descriptions: ['Designed and developed end-to-end lock simulator utility using .Net and C++ to aid firmware developers in testing and troubleshooting. Utilized C++ interoperability for communication with legacy software modules.'],
     techStack: ['vc-plusplus', 'win-form'],
     highlights: [],

@@ -32,7 +32,7 @@ export const Header = () => {
                     <a href="mailto:dvinun@gmail.com" style={{color: 'white'}}><BiLogoGmail /></a>&nbsp;
                     <a href="https://medium.com/@dvinun" style={{color: 'white'}}><BiLogoMediumSquare /></a>&nbsp;
                     <a href="https://linkedin.com/in/dvinun"  style={{color: 'white'}}><BiLogoLinkedinSquare /></a>&nbsp;
-                    <a href="https://medium.com/@dvinun"  style={{color: 'white'}}><BiSolidFilePdf /></a>&nbsp;
+                    <a href="/portfolio/Vinayaka Amaresh 14 Years Fullstack.pdf"  style={{color: 'white'}}><BiSolidFilePdf /></a>&nbsp;
                 </TaglineCol>
             </Row>
         </HeaderContainer>
