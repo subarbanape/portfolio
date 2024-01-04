@@ -310,7 +310,7 @@ const ProductLifecycleIntegrationProjectDetails = () => {
                 <u>Highlights of the integration</u>
             </h1>
             <ul>
-                <li>Subscriber to events in new billing software such as customer account creation, trouble ticket updates etc. and sync the updates to inhouse Contact Management database responsbile for customer care management application.</li>
+                <li>Subscribe to events in new billing software such as customer account creation, trouble ticket updates etc. and sync the updates to inhouse Contact Management database responsbile for customer care management application.</li>
                 <li>Handoff of the internet installtion orders from billing and provisioning to marketing cloud.</li>
                 <li>Nightly refresh of customers from marketing cloud to internal customer database for tracking additional information.</li>
                 <li>Sync internal trouble tickets to third-party ticketing company who handles customer care off hours.</li>
