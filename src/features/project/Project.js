@@ -197,9 +197,12 @@ const HeartbeatProjectDetails = () => {
     return (
         <div style={{ textAlign: 'left', paddingTop: '0px', padding: '10px' }}>
             <h1>
-                <u>Architecture</u>
+                <u>System Overview</u>
             </h1>
-            <p><TextParagraph>Coming soon.</TextParagraph></p>
+            <Image style={{ padding: '10px', maxWidth: '100%' }} src='/portfolio/heartbeat/Heartbeat System Overview-1.png'></Image>
+            <br/>
+            <br/>
+            <Image style={{ padding: '10px', maxWidth: '100%' }} src='/portfolio/heartbeat/Heartbeat System Overview-2.png'></Image>
             <h1>
                 <u>Demo Video</u>
             </h1>
